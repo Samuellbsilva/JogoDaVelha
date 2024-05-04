@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" id="favicon" href="img/771242.png" type="image">
+  </head>
+  <body>
+    <header>
+      <h1 class="Titulo">JOGO DA VELHA</h1>
+    </header>
+    <div id="off" class="offcanvas"  style="display: none;">
+
+      <h1 id="Jgd"></h1>
+      <h3>Reinicie o jogo</h3>
+      <div class="JOGAR1">
+      <button id="btmarcar"  onclick="start(); clnbt()">Jogar de novo</button>
+    </div>
+    </div>
+
+    <main  id="min"style="display: flex;">
+
+     
+
+      <table>
+    <h2 class="JOGADOR"><span id="jgdr1">JOGADOR I-</span><span style="color: aqua;">X</span> | <span id="jgdr2">JOGADOR II-</span><span style="color: aqua;">O</span></h2>
+        <tbody>
+          <tr >
+           
+            <td  id="q1" style="border-top: none;border-left: none;border-right: none;"></td >
+            <td  id="q2"style="border-top: none;;"></td >
+            <td  id="q3" style="border-top: none;border-left: none;border-right: none;"></td >
+          </tr>
+
+          <tr>
+            <td  id="q4" style="border-left: none; border-right: none;border-top: none;border-bottom: none;"></td >
+            <td  id="q5" style="border-top: none;border-bottom: none;"></td >
+            <td  id="q6"style="border-left: none; border-right: none;border-top: none;border-bottom: none;"></td >
+          </tr>
+
+          <tr>
+            <td  id="q7"style="border-left: none; border-right: none;border-bottom:none"></td >
+            <td  id="q8"style="border-bottom:none"></td >
+            <td  id="q9"style="border-left: none; border-right: none;border-bottom:none"></td >
+          </tr>
+        </tbody>
+
+      
+      </table>
+      <button id="btmarcar" class="JOGAR" onclick="start()">JOGAR</button>
+    </main>
+
+
+  
+
+
+    <footer>
+        <p class="Produtor">Produzido por: Samuellbsilva</p>
+        <nav>
+            <a href="" class="redesociais">GITHUB</a>
+            <a href="" class="redesociais">INSTAGRAM</a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
